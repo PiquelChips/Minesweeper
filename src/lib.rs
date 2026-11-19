@@ -1,8 +1,5 @@
-#![feature(vec_from_fn)]
 #![expect(unused, reason = "not finished")]
 #![expect(missing_docs, reason = "not finished")]
-
-use std::fmt::Display;
 
 #[derive(Debug)]
 pub enum Cell {
